@@ -2,8 +2,20 @@ body {
     background-color: rgb(247, 188, 91);
     margin: auto;
 }
+
 h2 {
-    text-decoration-color: rgb(60, 60, 60);
+    
+    text-decoration-color: white;
     font-family: sans-serif;
-    margin: auto;
 }
+
+h3 {
+    text-decoration: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    text-decoration: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
