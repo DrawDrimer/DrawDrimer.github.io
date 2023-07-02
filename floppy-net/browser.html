@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Floppy Network</title>
+</head>
+<body style="text-align: left; margin: 4px;">
+    <img src="./img/logo.png" width="64">
+    <link rel="stylesheet" href="styles/page_styles/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <a>floppy browser uwu</a>
+    <br>
+    <input id="box" value="https://drawdrimer.github.io/floppy-net/" placeholder="duckduckgo.com" width="500">
+    <button id="submit" onclick="updateIframe()">yes</button>
+    <br>
+    <iframe id="browser" width="800" height="600" src="https://drawdrimer.github.io/floppy-net/"></iframe>
+    <script>
+        box = document.getElementById("box")
+        iframe = document.getElementById("browser")
+
+        function updateIframe(){
+            iframe.src = box.value
+        }
+    </script>
+</body>
+</html>
